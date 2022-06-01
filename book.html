@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Book a Flight</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link rel="icon" href="img/aeropic.jpg">
+        <style>
+            .img1{
+                background-image: url(img/booking.jpg);
+              height: 100vh;
+             min-height: 300px;
+             background: no-repeat scroll center scroll;
+             -webkit-background-size: cover;
+            background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="background-color: red; color: black;">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="img/aeropic.jpg" alt="coding picture" width="60" height="54"
+                    class="d-inline-block align-top">
+                    <span class="hidden">welcome</span>
+                </a>
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+    
+                </button>
+               
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li>
+                            <a  class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a  class="nav-link" href="book.html">Book a Flight</a>
+                        </li>
+                        <li>
+                            <a  class="nav-link" href="customer.html">Customer Care</a>
+                        </li>
+                        <li>
+                            <a  class="nav-link" href="cv.html">CV</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="img1">
+            <div style="width: 600px; height: 600px; 
+            background-color: white; margin-left: 380px; ">
+            <form>
+                <div class="mb-3">
+                  <label for="Name" class="form-label"> Full Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="name">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Female
+                    </label>
+                  </div>
+                  
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Number of people Travelling</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label" aria-placeholder="Enter Your Destination">Destination</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label" aria-placeholder="Date">Date of Depature</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I agree to the airline terms of service</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Book me a flight</button>
+              </form>
+
+            </div>
+        </div>
+        <footer>
+             <!--bootstrap plugin-->
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+             <!--end of bootstrap plugin-->
+        </footer>
+    </body>
+</html>
